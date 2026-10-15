@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Andrea Pacifici: Homepage</title>
+  <meta name="description" content="Andrea Pacifici, Full Professor of Operations Research, Università di Roma Tor Vergata. Research on combinatorial algorithms for scheduling, logistics, manufacturing and transportation.">
+  <link rel="icon" href="favicon.ico">
+  <style>
+    :root {
+      --text: #1f2328;
+      --muted: #5b6168;
+      --accent: #1d3557;
+      --rule: #d8dce1;
+      --bg: #ffffff;
+      --max: 46rem;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      padding: 2.5rem 1.25rem 4rem;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+      font-size: 1.0625rem;
+      line-height: 1.6;
+    }
+
+    main, header, footer { max-width: var(--max); margin: 0 auto; }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 700;
+      margin: 0 0 1.25rem;
+      color: var(--accent);
+      line-height: 1.15;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin: 0 0 0.75rem;
+      color: var(--accent);
+    }
+
+    h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin: 1.25rem 0 0.5rem;
+    }
+
+    p { margin: 0 0 1rem; }
+
+    a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+    /* Header: photo, contents, and affiliation */
+    .intro {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 1.75rem;
+      align-items: start;
+    }
+
+    .intro img {
+      width: 180px;
+      height: auto;
+      border-radius: 4px;
+      display: block;
+    }
+
+    .affiliation {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin: 0 0 1rem;
+    }
+
+    .affiliation span { display: block; }
+
+    .contents ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem 1.1rem;
+    }
+
+    .contents li { margin: 0; }
+
+    .contact { font-size: 0.95rem; color: var(--muted); margin: 0.75rem 0 0; }
+
+    section {
+      border-top: 1px solid var(--rule);
+      padding: 1.75rem 0 0.5rem;
+      margin-top: 2rem;
+    }
+
+    .back {
+      font-size: 0.9rem;
+      margin: 0.25rem 0 0;
+    }
+
+    .epigraph {
+      font-style: italic;
+      color: var(--muted);
+      margin: 0 0 1rem;
+      padding-left: 1rem;
+      border-left: 2px solid var(--rule);
+    }
+
+    ul.plain {
+      padding-left: 1.2rem;
+      margin: 0 0 1rem;
+    }
+
+    ul.plain li { margin-bottom: 0.4rem; }
+
+    ul.nested { margin-top: 0.4rem; }
+
+    .bio-list { list-style: none; padding: 0; margin: 0 0 1rem; }
+    .bio-list li { margin-bottom: 0.5rem; padding-left: 0; }
+    .bio-list strong { font-weight: 700; color: var(--accent); }
+
+    footer.colophon {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--rule);
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    @media (max-width: 640px) {
+      body { font-size: 1rem; }
+      h1 { font-size: 1.85rem; }
+      .intro { grid-template-columns: 1fr; }
+      .intro img { width: 140px; }
+    }
+  </style>
+</head>
+<body>
+
+<header id="top">
+  <div class="intro">
+    <img src="face.jpg" alt="Photo of Andrea Pacifici at Garda Lake, June 2016" width="180" height="240">
+    <div>
+      <h1>Andrea Pacifici</h1>
+      <p class="affiliation">
+        <span>Full Professor, Dipartimento di Ingegneria Civile e Ingegneria Informatica (formerly DISP)</span>
+        <span>Università degli Studi di Roma "Tor Vergata"</span>
+      </p>
+      <p class="contact">
+        via del Politecnico, 1 · 00133 Roma, Italy
+        (<a href="https://maps.google.com/?q=Via+del+Politecnico+1+Roma+Italia">map</a>)<br>
+        Edificio di Ingegneria dell'Informazione, Blocco D, Stanza D2 n.13, piano 2, nord<br>
+        Tel. +39 06 7259 (Voice: 7795, Fax: 7460)<br>
+        Email: andrea.pacifici [at] uniroma2 [dot] it
+      </p>
+      <nav class="contents" aria-label="Page contents">
+        <ul>
+          <li><a href="#research">Research</a></li>
+          <li><a href="pubs.htm">Publications</a></li>
+          <li><a href="#teaching">Teaching</a></li>
+          <li><a href="#bio">Bio</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="https://sites.google.com/site/andreapacifici/">Google Site</a></li>
+          <li><a href="https://orcid.org/0000-0001-6144-0024">ORCID</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section id="research">
+    <h2>Research Interests and Publications</h2>
+    <p class="epigraph">
+      Die Ros' ist ohn' Warum; sie blühet, weil sie blühet<br>
+      Sie acht' nicht ihrer selbst, fragt nicht, ob man sie siehet.<br>
+      <span style="font-style:normal">(Silesius, 1657)</span>
+    </p>
+    <p>
+      Operations research is my field of activity. My research is mainly concerned with
+      combinatorial algorithms with applications to scheduling, logistics, manufacturing and
+      transportation systems.
+    </p>
+    <p>
+      My work includes the design and analysis of decision models for resource allocation,
+      the characterisation of computational complexity, and the design of exact and approximate
+      algorithms for multi-agent and nonlinear combinatorial optimization problems. I also design
+      and implement simulation models for evaluating control policies in complex systems.
+      An updated list is available on my <a href="pubs.htm">publications page</a>.
+    </p>
+    <p class="back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="teaching">
+    <h2>Teaching</h2>
+    <ul class="plain">
+      <li>
+        Currently teaching <strong>Operations Research</strong> to graduate students at the
+        Engineering School, Roma "Tor Vergata".
+        <a href="https://sites.google.com/site/andreapacifici/didattica">Course web pages</a>
+        (some in Italian).
+      </li>
+      <li>
+        Ph.D. students:
+        <ul class="nested">
+          <li><a href="https://www.uniroma3.it/persone/MHJrWHpXVTlHZkxhSjhzTVIxRjZNa3RRVFRhNGpXbVVtK210eXVzMTJlQT0=/">Arianna Freda</a> (2024–, co-tutored)</li>
+          <li><a href="https://it.linkedin.com/pub/alessandra-berto/10/418/965">Alessandra Berto</a> (2014–18, co-tutored)</li>
+          <li><a href="https://sites.google.com/site/enricogrande/">Enrico Grande</a> (2006–10)</li>
+        </ul>
+      </li>
+    </ul>
+    <p class="back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="bio">
+    <h2>Bio</h2>
+    <ul class="bio-list">
+      <li><strong>Feb. 2025–</strong> Full Professor, Dipartimento di Ingegneria Civile e Ingegneria Informatica, Università di Roma Tor Vergata.</li>
+      <li><strong>Dec. 2010 – Jan. 2025</strong> Associate Professor, Dipartimento di Ingegneria Civile e Ingegneria Informatica (until May 2012, Dip. di Informatica, Sistemi e Produzione), Università di Roma Tor Vergata.</li>
+      <li><strong>Nov. 2003 – Dec. 2010</strong> Assistant Professor, Dipartimento di Ingegneria dell'Impresa, Università di Roma Tor Vergata.</li>
+      <li><strong>Nov. 1999 – Nov. 2003</strong> Assistant Professor, Dipartimento di Informatica, Sistemi e Produzione, Università di Roma Tor Vergata.</li>
+      <li><strong>May–Jul. 2004</strong> Visiting Faculty, ATLAS Research Center, The University of Arizona, Tucson, Arizona.</li>
+      <li><strong>1997–2000</strong> Research Fellow, Dipartimento di Informatica e Automazione, Università degli Studi Roma Tre.</li>
+      <li><strong>Apr.–Jul. 1997</strong> Visiting Scholar, System and Industrial Engineering Dept., The University of Arizona, Tucson, Arizona (supervisor: Prof. Pitu B. Mirchandani).</li>
+      <li><strong>1996</strong> Research Fellow, CNR (National Research Council).</li>
+      <li><strong>1993–1996</strong> PhD program in Operations Research, Università di Roma La Sapienza (degree awarded July 1997).</li>
+      <li><strong>1993</strong> "Laurea" in Electronic Engineering, with full marks, Università di Roma La Sapienza.</li>
+    </ul>
+    <p>A more detailed <a href="cv/vita2012.pdf">curriculum vitae</a> is available.</p>
+    <p class="back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="service">
+    <h2>Service</h2>
+    <h3>Conference Program Committees</h3>
+    <ul class="plain">
+      <li><a href="http://ctw.uni-koeln.de/">15th Cologne-Twente Workshop on Combinatorial Optimization</a> (Köln, June 6–8, 2017)</li>
+      <li><a href="http://ctw16.di.unimi.it/">14th Cologne-Twente Workshop on Combinatorial Optimization</a> (Gargnano, June 6–8, 2016)</li>
+      <li><a href="http://www.icores.org//EuropeanProjectSpace.aspx">ICORES 2016</a> (Rome, February 23–25, 2016)</li>
+      <li><a href="http://ctw2015.eng.marmara.edu.tr">13th Cologne-Twente Workshop on Combinatorial Optimization</a> (Istanbul, May 26–28, 2015)</li>
+      <li><a href="http://wwwhome.math.utwente.nl/~ctw/">12th Cologne-Twente Workshop on Combinatorial Optimization</a> (Twente, May 21–23, 2013)</li>
+      <li><a href="http://ctw2012.informatik.unibw-muenchen.de">11th Cologne-Twente Workshop on Combinatorial Optimization</a> (München, May 29–31, 2012)</li>
+      <li><a href="http://ctw2011.dia.uniroma3.it/">10th Cologne-Twente Workshop on Combinatorial Optimization</a> (Frascati, June 14–16, 2011)</li>
+      <li><a href="http://www-2.dc.uba.ar/lagos2011/">Latin-American Graphs, Algorithms, and Optimization Symposium</a> (March 28–April 1, 2011)</li>
+    </ul>
+    <p class="back"><a href="#top">Back to top</a></p>
+  </section>
+
+</main>
+
+<footer class="colophon">
+  <p>Holy Writ, Bombay, 12.11.10</p>
+</footer>
+
+</body>
+</html>
